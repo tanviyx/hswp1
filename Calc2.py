@@ -1,3 +1,5 @@
+print("WELCOME")
+print("-------------------------------")
 # This function adds two numbers
 import Addition
 import Subtraction
@@ -43,3 +45,5 @@ while True:
           break
     else:
         print("Invalid Input")
+    print("-------------------------------")
+    
