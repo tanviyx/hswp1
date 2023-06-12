@@ -11,5 +11,3 @@ def factorial(n):
             n -= 1
         return fact
  
-num = int(input("Enter a number: "))
-print("Factorial of",num,"is",factorial(num))

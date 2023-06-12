@@ -1,19 +1,12 @@
 #Reciprocal of the entered data
 
-from fractions import Fraction
-
-def get_reciprocal():
+def reciprocal(input):
     try:
-        numerator = int(input("Enter the numerator: "))
-        denominator = int(input("Enter the denominator: "))
-
-        if denominator == 0:
+        if input == 0:
             print("Invalid fraction: Denominator cannot be zero.")
         else:
-            reciprocal = Fraction(denominator, numerator)
-            print("Reciprocal:", reciprocal)
+            reciprocal = 1/input
 
     except ValueError:
         print("Invalid input: Please enter integers.")
-
-get_reciprocal()
+    return reciprocal 
